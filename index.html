@@ -11,7 +11,8 @@
         /* تنظیمات پایه */
         body {
             font-family: Tahoma, 'B Titr', sans-serif;
-            background-color: #eef2f6;
+            /* Improved background: Slightly deeper blue-gray */
+            background-color: #e6eef5; 
             color: #2c3e50;
             margin: 0;
             padding: 0;
@@ -25,13 +26,18 @@
             margin: 0 auto;
             padding: 50px 30px;
             background-color: #ffffff;
-            box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+            /* Refined shadow */
+            box-shadow: 0 10px 30px rgba(44, 62, 80, 0.1); 
+            border-radius: 8px; /* Added slight border radius */
         }
 
         /* عناوین و استایل‌های قبلی */
-        h1 { color: #2980b9; font-size: 2.5em; text-align: center; margin-bottom: 15px; padding-bottom: 20px; border-bottom: 4px solid #f39c12; }
-        h2 { color: #e67e22; font-size: 1.8em; margin-top: 45px; border-right: 6px solid #3498db; padding-right: 15px; margin-bottom: 25px; }
-        h3 { color: #27ae60; font-size: 1.4em; margin-top: 30px; padding-bottom: 5px; border-bottom: 1px dashed #bdc3c7; }
+        /* H1: Deeper blue and more defined bottom border */
+        h1 { color: #1e8449; font-size: 2.5em; text-align: center; margin-bottom: 20px; padding-bottom: 20px; border-bottom: 4px solid #1e8449; }
+        /* H2: More professional color and shadow for the right border */
+        h2 { color: #d35400; font-size: 1.8em; margin-top: 45px; border-right: 6px solid #3498db; padding-right: 15px; margin-bottom: 25px; }
+        /* H3: Slightly clearer border */
+        h3 { color: #27ae60; font-size: 1.4em; margin-top: 30px; padding-bottom: 5px; border-bottom: 1px solid #bdc3c7; }
         .content-section p { font-size: 1.05em; margin-bottom: 20px; text-align: justify; }
 
         .link-group {
@@ -44,30 +50,31 @@
         .link-button {
             display: block;
             padding: 20px 15px;
-            border-radius: 12px;
+            border-radius: 8px; /* Slightly smaller radius for cleaner look */
             text-decoration: none;
             font-weight: bold;
-            font-size: 1.2em;
+            font-size: 1.15em; /* Slightly smaller font for better balance */
             transition: all 0.3s ease;
             text-align: center;
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
         }
 
-        /* رنگ‌بندی دکمه‌ها بر اساس دسته‌بندی */
-        .exchange { background-color: #f39c12; color: white; }
-        .invest { background-color: #2ecc71; color: white; }
-        .crowdfunding { background-color: #9b59b6; color: white; }
-        .karizma-invest { background-color: #1abc9c; color: white; } 
-        .seo-tools { background-color: #e74c3c; color: white; } 
+        /* رنگ‌بندی دکمه‌ها بر اساس دسته‌بندی - Colors kept, just button style polished */
+        .exchange { background-color: #f39c12; color: white; border-bottom: 4px solid #e67e22;}
+        .invest { background-color: #2ecc71; color: white; border-bottom: 4px solid #27ae60;}
+        .crowdfunding { background-color: #9b59b6; color: white; border-bottom: 4px solid #8e44ad;}
+        .karizma-invest { background-color: #1abc9c; color: white; border-bottom: 4px solid #16a085;} 
+        .seo-tools { background-color: #e74c3c; color: white; border-bottom: 4px solid #c0392b;} 
 
         .link-button:hover {
             opacity: 0.95;
-            transform: translateY(-4px);
-            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+            transform: translateY(-3px); /* Subtler lift */
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
         }
         
         .important-note {
-            background-color: #ecf0f1;
+            /* Slightly richer background for emphasis */
+            background-color: #fcecec; 
             border-right: 5px solid #e74c3c;
             padding: 20px;
             margin-top: 40px;
@@ -106,7 +113,7 @@
 
             <h3>صرافی نوبیتکس (Nobitex) - با لینک معرف، پاداش بگیرید</h3>
             <p>
-                <b>نوبیتکس</b> یکی از قدیمی‌ترین و <b>معتبرترین صرافی‌های ایرانی</b> است که حجم معاملات روزانه بسیار بالایی دارد. این ویژگی باعث می‌شود که شما بتوانید سفارشات خرید و فروش خود را با سرعت و قیمت بهتری نهایی کنید. با استفاده از لینک رفرال اختصاصی ما, نوبیتکس به شما پاداش ثبت‌نام می‌دهد که می‌توانید از آن در معاملات خود استفاده کنید.
+                <b>نوبیتکس</b> یکی از قدیمی‌ترین و <b>معتبرترین صرافی‌های ایرانی</b> است که حجم معاملات روزانه بسیار بالایی دارد. این ویژگی باعث می‌شود که شما بتوانید سفارشات خرید و فروش خود را با سرعت و قیمت بهتری نهایی کنید. با استفاده از لینک رفرال اختصاصی ما، نوبیتکس به شما پاداش ثبت‌نام می‌دهد که می‌توانید از آن در معاملات خود استفاده کنید.
             </p>
             <div class="link-group">
                 <a href="https://nobitex.ir/signup/?refcode=2817185" class="link-button exchange" target="_blank">ثبت‌نام در <b>نوبیتکس</b> با کد معرف</a>
